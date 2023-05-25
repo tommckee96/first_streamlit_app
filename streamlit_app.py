@@ -18,5 +18,6 @@ try:
         back_from_function = get_fruityvice_data(fruit_choice)
         print(back_from_function)
         streamlit.dataframe(back_from_function)
-
+except:
+    print('not ok')
  
